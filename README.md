@@ -3,7 +3,7 @@ A Simple Function That Copies Itself Around in Memory
 
 From MovingFunction.cpp :
 
-/*
+
 
     11/16/2021 - Zachary Washburn - zachary.washburn.business@gmail.com
     
@@ -18,5 +18,5 @@ From MovingFunction.cpp :
     for this code to work. with a bit of changes you could just not modify the first instance (no .text modification) and
     call VirtualProtect to not have these requirements.
 
-    For unknown reasons to me, attaching the VS debugger breaks the code? 
-*/
+
+
