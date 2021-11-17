@@ -1,5 +1,5 @@
 # MovingFunction
-A Simple Function That Copies Itself Around in Memory
+A Simple (Self-Modifying) Function That Copies Itself Around in Memory
 
 From MovingFunction.cpp :
 
