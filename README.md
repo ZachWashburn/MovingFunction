@@ -11,8 +11,8 @@ From MovingFunction.cpp :
     and running itself there. DEBUG mode will print out the new base address of the function, and you can make it
     free its previous instances by defining FREE_PREVIOUS_MEMORY.
 
-    Everything is calculated using rel offsets so you should be able to add whatever code you would like inbetween it as
-    long as you preserver the register and stack!
+    Everything is calculated using rel offsets so you should be able to add whatever code you would like in-between, as
+    long as you preserve the registers and stack!
 
     You will need to set the .text section to have PAGE_EXECUTE_READWRITE rights, aswell as turn of Data Execution Prevention
     for this code to work. with a bit of changes you could just not modify the first instance (no .text modification) and
